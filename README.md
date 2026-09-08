@@ -49,7 +49,7 @@ Every SVG has a background rectangle as its first element. Remove that line for 
 
 ## Linking to the assets
 
-Both link styles work for public pages. jsDelivr serves the correct content type for SVG, so prefer it when embedding an SVG outside GitHub.
+Both link styles work for public pages, including SVG. jsDelivr adds CDN caching, which suits high-traffic pages.
 
 ```
 https://raw.githubusercontent.com/humansquared/brand/main/logo/human2-logo-black-on-white-padded.svg
