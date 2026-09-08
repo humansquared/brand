@@ -1,6 +1,6 @@
-# Human Squared — brand assets
+# Human² — brand assets
 
-Official logo and wordmark of **Human Squared**. Humans, amplified by machines.
+Official logo and wordmark of **Human²** ("Human Squared"). Humans, amplified by machines.
 
 <p align="center">
   <img src="logo/human2-logo-black-on-white-padded.svg" width="180" alt="Human Squared logo, black on white">
@@ -62,6 +62,8 @@ https://cdn.jsdelivr.net/gh/humansquared/brand@main/logo/human2-logo-black-on-wh
 
 ## Rights
 
-Human Squared is a brand of Waveful Inc. HUMAN SQUARED™ and the Human Squared logo are trademarks of Waveful Inc. and its subsidiaries; an EU trademark application is pending. © 2026 Waveful Inc.
+Human² is a brand of Waveful Inc.
 
-You may use these files, unmodified, to refer to Human Squared, for example in articles, partner pages and integrations. You may not use them to suggest endorsement or affiliation without permission, or as part of another product's identity.
+HUMAN SQUARED™ and the Human² logo are trademarks of Waveful Inc. and its subsidiaries; an EU trademark application is pending. © 2026 Waveful Inc.
+
+You may use these files, unmodified, to refer to Human², for example in articles, partner pages and integrations. You may not use them to suggest endorsement or affiliation without permission, or as part of another product's identity.
