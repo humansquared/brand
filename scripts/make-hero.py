@@ -43,7 +43,7 @@ sf.set_variation_by_name('Semibold')
 # so stretch levels to a clean 0..255 and trim to the ink bounds.
 _wm = Image.open(WORDMARK).convert('L').point(lambda v: min(255, max(0, (v - 12) * 255 // 212)))
 _wm = _wm.crop(_wm.getbbox())
-WORDMARK_H = 0.040 * H  # ink height, top of the H to the baseline
+WORDMARK_H = 0.027 * H  # ink height, top of the H to the baseline
 wordmark = _wm.resize((round(_wm.width * WORDMARK_H / _wm.height), round(WORDMARK_H)), Image.LANCZOS)
 
 
