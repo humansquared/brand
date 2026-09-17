@@ -39,6 +39,19 @@ Every SVG has a background rectangle as its first element. Remove that line for 
 | [`wordmark/human2-wordmark-21x9-3168x1344-inverted.jpg`](wordmark/human2-wordmark-21x9-3168x1344-inverted.jpg) | 3168 × 1344, 21:9 | White on black |
 | [`wordmark/human2-wordmark-1x1-3168x3168-inverted.png`](wordmark/human2-wordmark-1x1-3168x3168-inverted.png) | 3168 × 3168, 1:1 | White on black |
 
+### Hero image
+
+The New Adam with the Human² wordmark and the line "Merging Humans and Machines", 2812 × 1674. The fingertip touch sits at the exact horizontal centre and all text stays in a tight band around the hands, so wide banner and cover crops keep everything.
+
+| File | Treatment |
+| --- | --- |
+| [`hero/human2-hero-bright.jpg`](hero/human2-hero-bright.jpg) | Bright |
+| [`hero/human2-hero-bright-vignette.jpg`](hero/human2-hero-bright-vignette.jpg) | Bright, vignette |
+| [`hero/human2-hero-dark.jpg`](hero/human2-hero-dark.jpg) | Slightly darkened |
+| [`hero/human2-hero-dark-vignette.jpg`](hero/human2-hero-dark-vignette.jpg) | Slightly darkened, vignette |
+
+Regenerate all four with `python3 scripts/make-hero.py` (needs Pillow, and macOS for SF Pro). The script reads `hero/source/the-new-adam.jpg` and takes the wordmark straight from `wordmark/`, so the image always matches the official artwork.
+
 ## Usage
 
 - Use the black-on-white version on light backgrounds and the white-on-black version on dark backgrounds.
