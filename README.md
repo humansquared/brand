@@ -41,16 +41,21 @@ Every SVG has a background rectangle as its first element. Remove that line for 
 
 ### Hero image
 
-The New Adam with the Human² wordmark and the line "Merging Humans and Machines", 2812 × 1674. The fingertip touch sits at the exact horizontal centre and all text stays in a tight band around the hands, so wide banner and cover crops keep everything.
+The New Adam with the Human² wordmark and the line "Merging Humans and Machines", 2812 × 1674. All text stays in a tight band around the hands, so wide banner and cover crops keep everything.
 
-| File | Treatment |
-| --- | --- |
-| [`hero/human2-hero-bright.jpg`](hero/human2-hero-bright.jpg) | Bright |
-| [`hero/human2-hero-bright-vignette.jpg`](hero/human2-hero-bright-vignette.jpg) | Bright, vignette |
-| [`hero/human2-hero-dark.jpg`](hero/human2-hero-dark.jpg) | Slightly darkened |
-| [`hero/human2-hero-dark-vignette.jpg`](hero/human2-hero-dark-vignette.jpg) | Slightly darkened, vignette |
+Two layouts:
 
-Regenerate all four with `python3 scripts/make-hero.py` (needs Pillow, and macOS for SF Pro). The script reads `hero/source/the-new-adam.jpg` and takes the wordmark straight from `wordmark/`, so the image always matches the official artwork.
+- **Centred**: the fingertip touch and the text sit at the exact horizontal centre.
+- **Offset**: touch and text sit at 61 % of the width, with the painting zoomed in 1.22× from its left edge. Use it for profile banners where an avatar or logo overlaps the lower left corner and would cover the start of the headline.
+
+| Treatment | Centred | Offset |
+| --- | --- | --- |
+| Bright | [`human2-hero-bright.jpg`](hero/human2-hero-bright.jpg) | [`human2-hero-offset-bright.jpg`](hero/human2-hero-offset-bright.jpg) |
+| Bright, vignette | [`human2-hero-bright-vignette.jpg`](hero/human2-hero-bright-vignette.jpg) | [`human2-hero-offset-bright-vignette.jpg`](hero/human2-hero-offset-bright-vignette.jpg) |
+| Slightly darkened | [`human2-hero-dark.jpg`](hero/human2-hero-dark.jpg) | [`human2-hero-offset-dark.jpg`](hero/human2-hero-offset-dark.jpg) |
+| Slightly darkened, vignette | [`human2-hero-dark-vignette.jpg`](hero/human2-hero-dark-vignette.jpg) | [`human2-hero-offset-dark-vignette.jpg`](hero/human2-hero-offset-dark-vignette.jpg) |
+
+Regenerate all eight with `python3 scripts/make-hero.py` (needs Pillow, and macOS for SF Pro). The script reads `hero/source/the-new-adam-5504x3072.jpg`, a full-resolution JPEG of the painting, and takes the wordmark straight from `wordmark/`, so the image always matches the official artwork. The painting's masters and history live in the `the-new-adam` repo.
 
 ## Usage
 
